@@ -1,0 +1,10 @@
+POST http://localhost:5000/type
+content-type: application/json
+
+{
+    "email":"john@doe.com",
+    "person":{
+        "name":"John",
+        "lastName":"Doe"    
+    }
+}
